@@ -44,12 +44,12 @@ To set up, run:
 `self.lambda_param`: regularization strength used in the QP objective. No training happens here; it only sets hyperparameters.
 
 -`train(self, inputs, labels)`: Fits the model by solving a QP.
-It does follows:
-1.Stores training data in self.train_inputs, self.train_labels.
-2.Builds the Gram matrix G using the chosen kernel.
-3.Constructs QP objective (Q, c) and inequality constraints (A, b).
-4.Calls solve_QP(...) to obtain the optimal variable vector.
-5.Stores the first m components as:self.alpha: (m,) coefficients used in prediction.
+  - It does follows:
+  - 1.Stores training data in `self.train_inputs`, `self.train_labels`.
+  - 2.Builds the Gram matrix G using the chosen kernel.
+  - 3.Constructs QP objective (Q, c) and inequality constraints (A, b).
+  - 4.Calls solve_QP(...) to obtain the optimal variable vector.
+  - 5.Stores the first m components as:`self.alpha`: (m,) coefficients used in prediction.
 
 
 
