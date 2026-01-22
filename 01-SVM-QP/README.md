@@ -86,5 +86,7 @@ To set up, run:
 ## Notes
 - Results should be reproducible by using the pinned package versions above and running the project in the gaussnb conda environment.
 - Some Plots and Graphs for Preview:
+
+
     ![Decision boundary (toy data)](Deci_bound.png)
     ![Train vs test error difference (Spambase)](err_diff.png)
