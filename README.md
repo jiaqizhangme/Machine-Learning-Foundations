@@ -1,13 +1,13 @@
 # Machine Learning Foundations: From Theory to Practice  
 **Author: Jiaqi Zhang** · **Master's Student in Data-Enabled Computational Science (DECES) @ Brown University**
 
-This repository is a curated portfolio of **core machine learning algorithms implemented from scratch** (NumPy-based), with an emphasis on mathematical foundations, numerical stability, and rigorous evaluation.
+This repository is a curated portfolio of **core machine learning algorithms implemented from scratch** (NumPy-based), with an emphasis on mathematical foundations, numerical stability, visualizations, and rigorous evaluation.
 
 ---
 
-## 🚀 Repository Structure (Display Order)
+## 🚀 Repository Structure
 
-| Project (Display Order) | Key Focus | Tech Stack |
+| Project | Key Focus | Tech Stack |
 | :--- | :--- | :--- |
 | **[Support Vector Machine for Classification Solved as a Quadratic Program](./01-SVM-QP/)** | Convex Optimization, Margins, Visualization | Python, NumPy, Matplotlib, quadprog |
 | **[Model Complexity & Overfitting (Decision Trees)](./HW_05-Decision-Tree/)** | Bias–Variance Trade-off, Hyperparameter Tuning | Python, NumPy, Matplotlib |
