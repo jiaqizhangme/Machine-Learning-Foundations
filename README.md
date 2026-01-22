@@ -9,7 +9,7 @@ This repository is a curated portfolio of **core machine learning algorithms imp
 
 | Project (Display Order) | Key Focus | Tech Stack |
 | :--- | :--- | :--- |
-| **[SVM as a Quadratic Program](./HW_07-SVM-QP/)** | Convex Optimization, Margins, Visualization | Python, NumPy, Matplotlib, quadprog |
+| **[Support Vector Machine for Classification Solved as a Quadratic Program](./HW_07-SVM-QP/)** | Convex Optimization, Margins, Visualization | Python, NumPy, Matplotlib, quadprog |
 | **[Model Complexity & Overfitting (Decision Trees)](./HW_05-Decision-Tree/)** | Bias–Variance Trade-off, Hyperparameter Tuning | Python, NumPy, Matplotlib |
 | **[Regularized Logistic Regression + Cross-Validation](./HW_04-Logistic-Regression/)** | Regularization, Cross-Validation, Baselines | Python, NumPy, Scikit-learn (benchmarking) |
 | **[2-Layer Neural Network (SGD)](./HW_08-Neural-Net-SGD/)** | Backpropagation, Optimization Dynamics, Generalization | Python, NumPy, Matplotlib |
@@ -20,7 +20,7 @@ This repository is a curated portfolio of **core machine learning algorithms imp
 ## 🧠 Notes
 - All core algorithms in this repository are implemented **from scratch** (no training via high-level ML libraries).
 - **Verification & Testing:** `pytest` is used for unit tests to validate correctness (edge cases, numerical stability).
-- **Benchmarking:** Scikit-learn is used only as a **reference implementation** for comparison where applicable.
+- **Benchmarking:** `Scikit-learn` is used only as a **reference implementation** for comparison where applicable.
 
 ---
 
