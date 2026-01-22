@@ -1,8 +1,24 @@
 # Support Vector Machine (SVM) Classification Project (QP + Kernels)
 
-This project implements a binary Support Vector Machine (SVM) classifier **from scratch** using a **Quadratic Programming (QP)** formulation solved via `quadprog`. It supports multiple kernels (linear, RBF, polynomial), evaluates train/test accuracy, produces data visualizationn, and includes utilities to load and normalize CSV datasets.
+This project implements a binary Support Vector Machine (SVM) classifier **from scratch** using a **Quadratic Programming (QP)** formulation solved via `quadprog`. It supports multiple kernels (linear, RBF, polynomial), evaluates train/test accuracy, produces data visualization, and includes utilities to load and normalize CSV datasets.
 
-
+**Repository contents**
+- `svm_code.ipynb` — jupyter notebook containing the full write-up, derivations, experiments, and visualization results.
+- `environment.yaml` — environment setup file.
+- `fake-data1.csv` and `fake-data2.csv`:
+  - **Testing correctness** of the SVM/QP implementation (sanity checks).
+  - **Debugging** kernel behavior and constraints (easy to inspect visually).
+  - **Visualizing the decision boundary** (because the input is 2D, we can plot how the classifier separates classes).
+- `spambase.csv`:
+  - Real-world dataset used for **final prediction and accuracy evaluation**.
+  - **Train/test accuracy** of the SVM under different kernels (linear / RBF / polynomial).
+  - Generalization performance on a practical classification task.
+  - Since this dataset is higher-dimensional, it is primarily used for **quantitative results** (accuracy), not decision-boundary plots.
+- `spambase_abridged.csv`:
+  - A smaller / simplified version of the spam dataset.
+  - Faster experiments and iteration (smaller runtime).
+  - Quick comparisons when tuning hyperparameters (e.g., `lambda`, `gamma`, `polynomial degree`).
+  - The same training + evaluation pipeline applies as with `spambase.csv`.
 
 ## Author / Contact
 - Jiaqi Zhang — jiaqi_zhang7@brown.edu  
