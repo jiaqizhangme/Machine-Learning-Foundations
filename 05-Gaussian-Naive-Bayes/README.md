@@ -77,3 +77,7 @@ To set up, run:
 
 - The implementation emphasizes numerical stability (log-domain computation + variance smoothing) and scikit-learn-style interfaces (fit, predict, predict_proba).
 
+- Some graphs and plots preview:
+
+    ![Decision_b](./gau_db.png)
+    ![Confu_m](./con_gb.png)
