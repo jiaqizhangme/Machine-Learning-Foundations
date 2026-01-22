@@ -1,4 +1,4 @@
-# Machine Learning Foundations: From Theory to Practice  
+# Machine Learning Foundations: From Theory to Practice(From Scratch to Functional Algorithms)  
 **Author: Jiaqi Zhang** · **Master's Student in Data-Enabled Computational Science (DECES) @ Brown University**
 
 This repository is a curated portfolio of **core machine learning algorithms implemented from scratch** (NumPy-based), with an emphasis on mathematical foundations, numerical stability, visualizations, and rigorous evaluation.
@@ -13,7 +13,7 @@ This repository is a curated portfolio of **core machine learning algorithms imp
 | **[Model Complexity & Overfitting Trade-off in Decision Trees on Binary Classifications](./02-Deci_Tree/)** | Bias–Variance Trade-off, Tree Pruning | Python, NumPy, Matplotlib, pandas |
 | **[Regularized Logistic Regression + Cross-Validation](./HW_04-Logistic-Regression/)** | Regularization, Cross-Validation, Baselines | Python, NumPy, Matplotlib, pytest, pandas|
 | **[2-Layer Neural Network (SGD)](./HW_08-Neural-Net-SGD/)** | Backpropagation, Optimization Dynamics, Generalization | Python, NumPy, Matplotlib, pytest |
-| **[Gaussian Naive Bayes from Scratch](./05-Gaussian-Naive-Bayes/)** | Numerical Stability, Generative Modeling, Unit Tests | Python, NumPy, Matplotlib, pytest|
+| **[Gaussian Naive Bayes from Scratch](./05-Gaussian-Naive-Bayes/)** | Numerical Stability, Generative Modeling| Python, NumPy, Matplotlib, pytest|
 
 ---
 
