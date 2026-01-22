@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Machine-Learning-Foundations
 
 **Author: Jiaqi Zhang**
@@ -18,7 +17,7 @@ This repository serves as a professional portfolio of my work in fundamental mac
 ##  Tech Stack
 - **Language:** Python 3.12.11
 - **Libraries:** NumPy 2.3.2, Pandas 2.3.2, Scikit-learn 1.7.1, Matplotlib 3.10.5, pytorch 2.7.1, jupyter, pytest 8.4.1, quadprog
-=======
+
 # Machine Learning Foundations: From Theory to Practice
 **Author: Jiaqi Zhang** **Master's Student in Data-Enabled Computational Science @ Brown University**
 
