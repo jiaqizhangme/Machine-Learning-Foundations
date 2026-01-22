@@ -11,9 +11,9 @@ This repository is a curated portfolio of **core machine learning algorithms imp
 | :--- | :--- | :--- |
 | **[Support Vector Machine for Classification Solved as a Quadratic Program](./01-SVM-QP/)** | Convex Optimization, Margins, Visualization | Python, NumPy, Matplotlib, quadprog |
 | **[Model Complexity & Overfitting (Decision Trees)](./HW_05-Decision-Tree/)** | Bias–Variance Trade-off, Hyperparameter Tuning | Python, NumPy, Matplotlib |
-| **[Regularized Logistic Regression + Cross-Validation](./HW_04-Logistic-Regression/)** | Regularization, Cross-Validation, Baselines | Python, NumPy,Matplotlib|
-| **[2-Layer Neural Network (SGD)](./HW_08-Neural-Net-SGD/)** | Backpropagation, Optimization Dynamics, Generalization | Python, NumPy, Matplotlib |
-| **[Gaussian Naive Bayes from Scratch](./05-Gaussian-Naive-Bayes/)** | Numerical Stability, Generative Modeling, Unit Tests | Python, NumPy, Matplotlib|
+| **[Regularized Logistic Regression + Cross-Validation](./HW_04-Logistic-Regression/)** | Regularization, Cross-Validation, Baselines | Python, NumPy, Matplotlib, pytest|
+| **[2-Layer Neural Network (SGD)](./HW_08-Neural-Net-SGD/)** | Backpropagation, Optimization Dynamics, Generalization | Python, NumPy, Matplotlib, pytest |
+| **[Gaussian Naive Bayes from Scratch](./05-Gaussian-Naive-Bayes/)** | Numerical Stability, Generative Modeling, Unit Tests | Python, NumPy, Matplotlib, pytest|
 
 ---
 
