@@ -1,0 +1,56 @@
+# ----------------------------
+# Python cache / build
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.dll
+*.egg-info/
+dist/
+build/
+
+# ----------------------------
+# Jupyter / IPython
+# ----------------------------
+.ipynb_checkpoints/
+.ipython/
+.profile_default/
+
+# ----------------------------
+# Conda / venv
+# ----------------------------
+.env/
+.venv/
+env/
+venv/
+conda-bld/
+*.conda
+*.tar.bz2
+
+# ----------------------------
+# Editor / OS junk
+# ----------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Logs / temp outputs
+# ----------------------------
+*.log
+*.tmp
+*.swp
+
+# ----------------------------
+# Keep your tracked project files
+# (no ignore rules for these)
+# ----------------------------
+# data/iris.csv
+# data/iris.rst.txt
+# src/Final_Project.ipynb
+# environment.yaml
+# README.md
+# LICENSE
+# Final Presentation.pdf
