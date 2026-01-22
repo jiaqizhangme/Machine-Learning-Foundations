@@ -27,7 +27,7 @@ This repository is a curated portfolio of **core machine learning algorithms imp
 ## 🛠️ Tech Specs
 - **Language:** Python 3.12.11
 - **Core Libraries:** NumPy, Matplotlib
-- **Utilities:** pytest, quadprog, Jupyter  
+- **Utilities:** pytest, quadprog, pandas, Jupyter  
 - **Benchmarking:** Scikit-learn
 
 
