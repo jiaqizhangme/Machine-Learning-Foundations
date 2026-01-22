@@ -28,19 +28,19 @@ To set up, run:
 `conda activate svm`  
 
 ## Core Methods and Functions
-- `solve_QP(Q, c, A, b, E=None, d=None)`: The function written to solve the quadratic program. (Equality constraints `Ex = d` are supported in the wrapper signature but not used in this project’s SVM formulation.) Inputs: `Q`: (n, n) matrix. `c`: (n,) vector. `A`: (k, n) matrix. `b` : (k,) vector. Outputs: (n,) vector of the optimal decision variables.
+-`solve_QP(Q, c, A, b, E=None, d=None)`: The function written to solve the quadratic program. (Equality constraints `Ex = d` are supported in the wrapper signature but not used in this project’s SVM formulation.) Inputs: `Q`: (n, n) matrix. `c`: (n,) vector. `A`: (k, n) matrix. `b` : (k,) vector. Outputs: (n,) vector of the optimal decision variables.
 
-- `qp_example()`: A small demonstration function showing how to call `solve_QP` on a toy QP problem. It prints the optimal solution to confirm that the wrapper is working.
+-`qp_example()`: A small demonstration function showing how to call `solve_QP` on a toy QP problem. It prints the optimal solution to confirm that the wrapper is working.
 
-- `linear_kernel(xi, xj)`: Implements the standard dot product.
+-`linear_kernel(xi, xj)`: Implements the standard dot product.
 
-- `rbf_kernel(xi, xj, gamma=0.1)`: Radial Basis Function (Gaussian) kernel.
+-`rbf_kernel(xi, xj, gamma=0.1)`: Radial Basis Function (Gaussian) kernel.
 
-- `polynomial_kernel(xi, xj, c=2, d=2)`: Polynomial kernel.
+-`polynomial_kernel(xi, xj, c=2, d=2)`: Polynomial kernel.
 
-- `class SVM(kernel_func=linear_kernel, lambda_param=0.1)`: A QP-based SVM classifier using a specified kernel.
+-`class SVM(kernel_func=linear_kernel, lambda_param=0.1)`: A QP-based SVM classifier using a specified kernel.
 
-- `__init__(self, kernel_func=linear_kernel, lambda_param=.1)`: It stores:`self.kernel_func`: kernel function used to compute similarity 
+-`__init__(self, kernel_func=linear_kernel, lambda_param=.1)`: It stores:`self.kernel_func`: kernel function used to compute similarity 
 `self.lambda_param`: regularization strength used in the QP objective. No training happens here; it only sets hyperparameters.
 
 -`train(self, inputs, labels)`: Fits the model by solving a QP. It does follows:
@@ -61,11 +61,11 @@ To set up, run:
 -`accuracy(self, inputs, labels)`: Computes classification accuracy.
 
 -`test_svm(train_data, test_data, kernel_func=linear_kernel, lambda_param=.1)`: Convenience function to: 
-    - Instantiate an SVM with the chosen kernel and lambda_param. 
-    - Train on train_data.
-    - Compute and print: training accuracy and test accuracy
+  - 1.Instantiate an SVM with the chosen kernel and lambda_param. 
+  - 2.Train on train_data.
+  - 3.Compute and print: training accuracy and test accuracy
 
-- `read_data(file_name)`: Reads a CSV dataset and returns normalized features and binary labels.
+-`read_data(file_name)`: Reads a CSV dataset and returns normalized features and binary labels.
 
 ## Notes
 - Results should be reproducible by using the pinned package versions above and running the project in the gaussnb conda environment.
