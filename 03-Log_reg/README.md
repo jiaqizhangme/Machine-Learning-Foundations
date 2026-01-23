@@ -1,4 +1,4 @@
-
+# Regularized Logistic Regression With Cross-Validation Evaluation
 
 
 
@@ -42,4 +42,5 @@ To set up, run:
 - Results should be reproducible by using the pinned package versions above and running the project in the gaussnb conda environment.
 - Some Plots and Graphs for Preview:
 
+Title: Plot of Regularization parameter VS. Three Types of Errors
 ![plot](./Picture1.png)
