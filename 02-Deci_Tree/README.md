@@ -49,9 +49,9 @@ To set up, run:
 - `_predict_recurs(self, node, row)`: Helper function to predict the label given a row of features. Traverse the tree until leaves to get the label.
 
 - `_prune_recurs(self, node, validation_data)`:  Prune the tree bottom up recursively. Nothing needs to be returned.
-       - It will not prune if the node is a leaf.
-       - It will not prune if the node is non-leaf and has at least one non-leaf child.
-       - It will Prune if deleting the node could reduce loss on the validation data.
+    - It will not prune if the node is a leaf.
+    - It will not prune if the node is non-leaf and has at least one non-leaf child.
+    - It will Prune if deleting the node could reduce loss on the validation data.
 
 - `_is_terminal(self, node, data, indices)`:  Helper function to determine whether the node should stop splitting.
     - Stop the recursion if:
