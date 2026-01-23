@@ -10,7 +10,7 @@ This project implements a binary Support Vector Machine (SVM) classifier **from 
   - **Debugging** kernel behavior and constraints (easy to inspect visually).
   - **Visualizing the decision boundary** (because the input is 2D, we can plot how the classifier separates classes).
 - `spambase.csv`:
-  - Real-world dataset used for **final prediction and accuracy evaluation**.
+  - Real-world spam email dataset used for **final prediction and accuracy evaluation**.
   - **Train/test accuracy** of the SVM under different kernels (linear / RBF / polynomial).
   - Generalization performance on a practical classification task.
   - Since this dataset is higher-dimensional, it is primarily used for **quantitative results** (accuracy), not decision-boundary plots.
