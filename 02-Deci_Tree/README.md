@@ -68,6 +68,28 @@ To set up, run:
               be if we were to terminate at that node). If there is no data left, it
               must return the majority class of the training set.
 
+- `_split_recurs(self, node, data, indices)`: Recursively split the node based on the rows and indices given. Nothing needs to be returned.
+    - First use _is_terminal() to check if the node needs to be split.
+    - If so, select the column that has the maximum infomation gain to split on.
+    - Store the label predicted for this node, the split column, and use _set_info() to keep track of the gain and the number of datapoints at the split.
+    - Then, split the data based on its value in the selected column.
+    The data should be recursively passed to the children.
+
+- `_calc_gain(self, data, split_index, gain_function)`: Calculate the gain of the proposed splitting and return it.
+    - Gain = C(P[y=1]) - P[x_i=True] * C(P[y=1|x_i=True]) - P[x_i=False] * C(P[y=0|x_i=False])
+    - Here the C(p) is the gain_function. For example, if C(p) = min(p, 1-p), this would be considering training error gain. Other alternatives are entropy and gini functions.
+    
+- `print_tree(self)`: Helper function for tree_visualization. Only effective with very shallow trees.
+
+- `loss_plot_vec(self, data)`: Helper function to visualize the loss when the tree expands.
+
+- `_loss_plot_recurs(self, node, rows, prev_num_correct)`: Helper function to visualize the loss when the tree expands.
+
+
 ## Notes
 - Results should be reproducible by using the pinned package versions above and running the project in the gaussnb conda environment.
 - Some Plots and Tables for Preview:
+
+![table](./table.png)
+![depth](./dep.png)
+![tre](./tre.png)
