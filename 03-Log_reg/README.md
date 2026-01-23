@@ -43,4 +43,5 @@ To set up, run:
 - Some Plots and Graphs for Preview:
 
 Title: Plot of Regularization parameter VS. Three Types of Errors
+
 ![plot](./Picture1.png)
