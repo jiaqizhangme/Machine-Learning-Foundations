@@ -49,23 +49,22 @@ To set up, run:
 - `_predict_recurs(self, node, row)`: Helper function to predict the label given a row of features. Traverse the tree until leaves to get the label.
 
 - `_prune_recurs(self, node, validation_data)`:  Prune the tree bottom up recursively. Nothing needs to be returned.
-        It will not prune if the node is a leaf.
-        It will not prune if the node is non-leaf and has at least one non-leaf child.
-        It will Prune if deleting the node could reduce loss on the validation data.
+       - It will not prune if the node is a leaf.
+       - It will not prune if the node is non-leaf and has at least one non-leaf child.
+       - It will Prune if deleting the node could reduce loss on the validation data.
 
 - `_is_terminal(self, node, data, indices)`:  Helper function to determine whether the node should stop splitting.
-        Stop the recursion if:
-            1. The dataset (as passed to parameter data) is empty.
-            2. There are no more indices to split on.
-            3. All the instances in this dataset belong to the same class
-            4. The depth of the node reaches the maximum depth.
-        Set the node label to be the majority label of the training dataset if:
-            1. The number of class 1 points is equal to the number of class 0 points.
-            2. The dataset is empty.
-        Return:
-            - A boolean, True indicating the current node should be a leaf and 
-              False if the node is not a leaf.
-            - A label, indicating the label of the leaf (or the label the node would 
+    - Stop the recursion if:
+        - 1. The dataset (as passed to parameter data) is empty.
+        - 2. There are no more indices to split on.
+        - 3. All the instances in this dataset belong to the same class
+        - 4. The depth of the node reaches the maximum depth.
+    - Set the node label to be the majority label of the training dataset if:
+        - 1. The number of class 1 points is equal to the number of class 0 points.
+        - 2. The dataset is empty.
+    - Return:
+        - A boolean, True indicating the current node should be a leaf and False if the node is not a leaf.
+        - A label, indicating the label of the leaf (or the label the node would 
               be if we were to terminate at that node). If there is no data left, it
               must return the majority class of the training set.
 
