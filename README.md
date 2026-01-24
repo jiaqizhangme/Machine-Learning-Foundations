@@ -35,3 +35,4 @@ This repository is a curated portfolio of **core machine learning algorithms imp
 For inquiries regarding these implementations or potential collaborations:
 - **Email**: jiaqi_zhang7@brown.edu
 - **LinkedIn**: www.linkedin.com/in/jiaqi-zhang-95abba355
+- **Main Portfolio**: [https://github.com/jiaqizhangme](https://github.com/jiaqizhangme)
