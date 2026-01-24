@@ -12,7 +12,7 @@ This repository is a curated portfolio of **core machine learning algorithms imp
 | **[Support Vector Machine for Classification Solved as a Quadratic Program](./01-SVM-QP/)** | Convex Optimization, Margins, Visualization | Python, NumPy, Matplotlib, quadprog, pandas |
 | **[Model Complexity & Overfitting Trade-off in Decision Trees on Binary Classifications](./02-Deci_Tree/)** | Bias–Variance Trade-off, Tree Pruning | Python, NumPy, Matplotlib, pandas |
 | **[Regularized Logistic Regression + Cross-Validation](./03-Log_reg/)** | Regularization, Cross-Validation, Evaluation | Python, NumPy, Matplotlib, pytest, pandas|
-| **[2-Layer Neural Network (SGD)](./HW_08-Neural-Net-SGD/)** | Backpropagation, Optimization Dynamics, Generalization | Python, NumPy, Matplotlib, pytest |
+| **[Build and Train 1- and 2-Layer Neural Networks (SGD + Backprop) From Scratch](./04-NN/)** | Backpropagation, Optimization Dynamics, Visualization | Python, NumPy, Matplotlib, pytest |
 | **[Gaussian Naive Bayes from Scratch](./05-Gaussian-Naive-Bayes/)** | Numerical Stability, Generative Modeling| Python, NumPy, Matplotlib, pytest|
 
 ---

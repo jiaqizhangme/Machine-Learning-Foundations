@@ -1,0 +1,14 @@
+name: nn
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.11
+  - matplotlib=3.10.5
+  - pandas=2.3.2
+  - scikit-learn=1.7.1
+  - numpy=2.3.2
+  - pytorch=2.7.1
+  - jupyter
+  - pytest=8.4.1
+  - quadprog
+prefix: /opt/conda
